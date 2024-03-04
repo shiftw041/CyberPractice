@@ -1,0 +1,7 @@
+file ./linux/vmlinux
+dir ./linux/
+set architecture i386:x86-64
+gef-remote --qemu-user --qemu-binary ./linux/vmlinux localhost 54321
+add-symbol-file ./chall1_null_mod.ko 0xffffffffc0000000
+b * 0xffffffffc0000000
+c

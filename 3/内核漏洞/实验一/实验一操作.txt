@@ -1,0 +1,17 @@
+ubuntu20.04
+
+qemo安装
+sudo apt-get update
+sudo apt-get install qemu qemu-kvm
+
+sudo apt install gcc-8
+内核编译过程
+sudo apt-get install build-essential flex bison bc libelf-dev libssl-dev libncurses5-dev gcc-8
+wget https://mirrors.hust.edu.cn/git/linux.git/snapshot/linux-5.0-rc1.tar.gz
+tar -xvf linux-5.0-rc1.tar.gz
+cd linux-5.0-rc1
+cp ../config-5.0-rc1 .config
+提示：config-5.0-rc1 是之前提供的内核配置文件
+make olddefconfig
+make -j8 CC=gcc-8
+提示：8 是指用 8 个 core 同时编译，大家根据自己的机器配置进行酌情修改
