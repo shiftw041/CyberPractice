@@ -1,0 +1,12 @@
+GET /admin HTTP/1.1
+Host: 10.12.153.8:30617
+Content-Length: 0
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Connection: keep-alive
+Cookie: session=.eJwVy70KwjAUQOFXkbs0hRKrY6GLCMXRwawhTa8xmD-SKErIuxvXj3MKRG8QpgI6cbFZ7WA6DOCEbQgZU4YBEsqImT_x24wt6iPH03u1t4c8srO0bLxc57l1dyNUK0oxOqSXpZwr41dhEudUYSadT11Pgw_oSCdF3u3_R6OIYiN9rVDrD7FuMCU.ZnNiOw.QY4X-olnlT9X6lvM0n1Stn9ev70
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9

